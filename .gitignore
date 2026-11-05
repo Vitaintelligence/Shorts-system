@@ -1,0 +1,48 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and caches
+node_modules/
+dist/
+.remotion/
+out/
+remotion-tmp/
+
+# Rendered media and other large binaries.
+# Source recordings and finished shorts do not belong in git.
+# See docs/SETUP.md for Git LFS or external asset storage.
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.m4v
+*.MP4
+*.MOV
+*.wav
+*.mp3
+*.aac
+*.m4a
+*.flac
+*.zip
+
+# Generated pipeline artifacts (stage JSON, scripts, QA reports, masters)
+projects/production/*
+!projects/production/.gitkeep
+projects/approved/*
+!projects/approved/.gitkeep
+
+# Real app recordings dropped locally
+projects/incoming/livi/*
+!projects/incoming/livi/README.md
+
+# Platform deliverables. Folder READMEs stay in git.
+exports/instagram/*
+!exports/instagram/README.md
+exports/tiktok/*
+!exports/tiktok/README.md
+exports/youtube/*
+!exports/youtube/README.md
+
+.DS_Store
