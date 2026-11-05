@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "sample-pipeline",
+  "createdFor": "shorts-studio-pipeline-proof",
+  "disclaimer": "Placeholder used only to prove ingestion through export. It is not an advertisement and it states no app feature.",
+  "source": {
+    "kind": "none",
+    "note": "No screen recording is attached. Do not infer product behavior from this file."
+  },
+  "app": null,
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSeconds": 5
+  },
+  "titleCard": {
+    "eyebrow": "Shorts Studio",
+    "title": "Pipeline sample",
+    "subtitle": "No product claims"
+  },
+  "captions": [
+    {
+      "id": "c1",
+      "startSeconds": 2.2,
+      "endSeconds": 4.6,
+      "text": "Burned-in caption from the sample manifest."
+    }
+  ],
+  "callToAction": null
+}
